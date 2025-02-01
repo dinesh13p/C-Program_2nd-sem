@@ -19,7 +19,7 @@ int main()
             if (numbers[j] > numbers[j + 1])
             {
                 // swapp the numbers[j] and numbers[j + 1]
-                temp = numbers[j];
+                 temp = numbers[j];
                 numbers[j] = numbers[j + 1];
                 numbers[j + 1] = temp;
             }
